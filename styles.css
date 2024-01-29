@@ -1,0 +1,23 @@
+body {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	gap: 2em;
+}
+
+.notes {
+	display: grid;
+	gap: 2em;
+}
+
+.note {
+	padding: 1em;
+	width: 10em;
+	height: 10em;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+.note--wide {
+	width: 20em;
+}
